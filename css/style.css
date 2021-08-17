@@ -1,0 +1,38 @@
+* {
+    font-family: 'Inter UI', sans-serif;
+    color: black;
+}
+
+#me {
+    border-radius: 10%;
+    margin-top: 30%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 1em;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: lightgreen;
+}
+
+body{
+    background-color: white;
+}
+
+#push-down {
+    margin-top: 10%;
+}
