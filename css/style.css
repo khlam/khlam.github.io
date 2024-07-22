@@ -1,38 +1,43 @@
 * {
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Inter UI', sans-serif; 
     color: black;
+    margin: 0; 
+    padding: 0;
 }
 
-#me {
-    border-radius: 10%;
-    margin-top: 30%;
+body, html {
     width: 100%;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    font-size:24px;
 }
 
-h1 {
-    font-size: 4em;
+.container {
+    max-width: 1600px; 
+    margin: auto;
 }
 
 ul {
     list-style-type: none;
 }
 
-li {
-    margin: 1em;
-}
-
 a {
     color: black;
+    text-decoration: underline; 
 }
 
 a:hover {
     background-color: lightgreen;
 }
 
-body{
-    background-color: white;
+h1 {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 2.5rem;
 }
 
-#push-down {
-    margin-top: 10%;
+#me {
+    border-radius: 4%; 
+    margin-top: 5%;
+    width: 100%;
 }
